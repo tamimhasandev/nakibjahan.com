@@ -1,0 +1,167 @@
+Log created: 2024-08-24 19:53:34
+Type: backup
+[2024-08-24 19:53:37][notice]Start backing up.
+[2024-08-24 19:53:37][notice]server info fcgi:Off max execution time: 300 wp version:6.6.1 php version:8.1.29 db version:10.6.18 php ini:safe_mode: memory_limit:256M memory_get_usage:26.10 MB memory_get_peak_usage:28.01 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-08-24 19:53:37][notice]LiteSpeed Server.
+[2024-08-24 19:53:37][notice]Add LiteSpeed Rule
+[2024-08-24 19:53:37][notice]Prepare to backup backup_db files.
+[2024-08-24 19:53:38][notice]Start exporting database.
+[2024-08-24 19:53:38][notice]Preparing to dump table wpce_itsec_fingerprints
+[2024-08-24 19:53:38][notice]Preparing to dump table wpce_itsec_geolocation_cache
+[2024-08-24 19:53:38][notice]Preparing to dump table wpce_rank_math_redirections
+[2024-08-24 19:53:38][notice]Preparing to dump table wpce_rank_math_redirections_cache
+[2024-08-24 19:53:38][notice]Preparing to dump table wpce_redirection_logs
+[2024-08-24 19:53:38][notice]Preparing to dump table wpce_wc_download_log
+[2024-08-24 19:53:38][notice]Preparing to dump table wpce_wc_order_tax_lookup
+[2024-08-24 19:53:39][notice]Preparing to dump table wpce_wc_product_attributes_lookup
+[2024-08-24 19:53:39][notice]Preparing to dump table wpce_wc_reserved_stock
+[2024-08-24 19:53:39][notice]Preparing to dump table wpce_wc_webhooks
+[2024-08-24 19:53:39][notice]Preparing to dump table wpce_woocommerce_attribute_taxonomies
+[2024-08-24 19:53:40][notice]Preparing to dump table wpce_woocommerce_downloadable_product_permissions
+[2024-08-24 19:53:40][notice]Preparing to dump table wpce_woocommerce_log
+[2024-08-24 19:53:40][notice]Preparing to dump table wpce_woocommerce_payment_tokenmeta
+[2024-08-24 19:53:40][notice]Preparing to dump table wpce_woocommerce_payment_tokens
+[2024-08-24 19:53:40][notice]Preparing to dump table wpce_woocommerce_shipping_zone_locations
+[2024-08-24 19:53:40][notice]Preparing to dump table wpce_woocommerce_shipping_zone_methods
+[2024-08-24 19:53:40][notice]Preparing to dump table wpce_woocommerce_shipping_zones
+[2024-08-24 19:53:41][notice]Preparing to dump table wpce_woocommerce_tax_rate_locations
+[2024-08-24 19:53:41][notice]Preparing to dump table wpce_woocommerce_tax_rates
+[2024-08-24 19:53:41][notice]Preparing to dump table wpce_itsec_distributed_storage
+[2024-08-24 19:53:41][notice]Preparing to dump table wpce_itsec_mutexes
+[2024-08-24 19:53:41][notice]Preparing to dump table wpce_itsec_opaque_tokens
+[2024-08-24 19:53:41][notice]Preparing to dump table wpce_woocommerce_api_keys
+[2024-08-24 19:53:41][notice]Preparing to dump table wpce_itsec_user_groups
+[2024-08-24 19:53:41][notice]Preparing to dump table wpce_wc_category_lookup
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_actionscheduler_claims
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_woocommerce_order_items
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_imagify_files
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_imagify_folders
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_itsec_firewall_rules
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_redirection_404
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_wc_rate_limits
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_redirection_groups
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_wc_order_coupon_lookup
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_rank_math_internal_meta
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_wc_customer_lookup
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_woocommerce_order_itemmeta
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_wc_order_product_lookup
+[2024-08-24 19:53:42][notice]Preparing to dump table wpce_wc_order_operational_data
+[2024-08-24 19:53:43][notice]Preparing to dump table wpce_itsec_dashboard_lockouts
+[2024-08-24 19:53:43][notice]Preparing to dump table wpce_wc_tax_rate_classes
+[2024-08-24 19:53:43][notice]Preparing to dump table wpce_wc_product_download_directories
+[2024-08-24 19:53:43][notice]Preparing to dump table wpce_actionscheduler_groups
+[2024-08-24 19:53:43][notice]Preparing to dump table wpce_itsec_bans
+[2024-08-24 19:53:43][notice]Preparing to dump table wpce_litespeed_img_optming
+[2024-08-24 19:53:43][notice]Preparing to dump table wpce_wc_order_stats
+[2024-08-24 19:53:44][notice]Preparing to dump table wpce_wc_product_meta_lookup
+[2024-08-24 19:53:44][notice]Preparing to dump table wpce_itsec_vulnerabilities
+[2024-08-24 19:53:44][notice]Preparing to dump table wpce_wc_order_addresses
+[2024-08-24 19:53:44][notice]Preparing to dump table wpce_bkash_transactions
+[2024-08-24 19:53:44][notice]Preparing to dump table wpce_hfcm_scripts
+[2024-08-24 19:53:44][notice]Preparing to dump table wpce_redirection_items
+[2024-08-24 19:53:44][notice]Preparing to dump table wpce_wc_orders
+[2024-08-24 19:53:45][notice]Preparing to dump table wpce_rank_math_internal_links
+[2024-08-24 19:53:45][notice]Preparing to dump table wpce_wc_admin_note_actions
+[2024-08-24 19:53:45][notice]Preparing to dump table wpce_wpr_rocket_cache
+[2024-08-24 19:53:45][notice]Preparing to dump table wpce_wc_orders_meta
+[2024-08-24 19:53:46][notice]Preparing to dump table wpce_e_events
+[2024-08-24 19:53:46][notice]Preparing to dump table wpce_links
+[2024-08-24 19:53:46][notice]Preparing to dump table wpce_term_relationships
+[2024-08-24 19:53:46][notice]Preparing to dump table wpce_yoast_migrations
+[2024-08-24 19:53:46][notice]Preparing to dump table wpce_wc_admin_notes
+[2024-08-24 19:53:46][notice]Preparing to dump table wpce_commentmeta
+[2024-08-24 19:53:46][notice]Preparing to dump table wpce_post_views
+[2024-08-24 19:53:47][notice]Preparing to dump table wpce_term_taxonomy
+[2024-08-24 19:53:47][notice]Preparing to dump table wpce_termmeta
+[2024-08-24 19:53:47][notice]Preparing to dump table wpce_terms
+[2024-08-24 19:53:47][notice]Preparing to dump table wpce_yoast_primary_term
+[2024-08-24 19:53:47][notice]Preparing to dump table wpce_e_notes_users_relations
+[2024-08-24 19:53:47][notice]Preparing to dump table wpce_users
+[2024-08-24 19:53:47][notice]Preparing to dump table wpce_yoast_indexable_hierarchy
+[2024-08-24 19:53:47][notice]Preparing to dump table wpce_wpr_rucss_used_css
+[2024-08-24 19:53:47][notice]Preparing to dump table wpce_actionscheduler_logs
+[2024-08-24 19:53:48][notice]Preparing to dump table wpce_usermeta
+[2024-08-24 19:53:48][notice]Preparing to dump table wpce_wpr_above_the_fold
+[2024-08-24 19:53:48][notice]Preparing to dump table wpce_actionscheduler_actions
+[2024-08-24 19:53:48][notice]Preparing to dump table wpce_comments
+[2024-08-24 19:53:48][notice]Preparing to dump table wpce_yoast_seo_links
+[2024-08-24 19:53:48][notice]Preparing to dump table wpce_e_submissions_actions_log
+[2024-08-24 19:53:48][notice]Preparing to dump table wpce_e_submissions_values
+[2024-08-24 19:53:49][notice]Preparing to dump table wpce_itsec_lockouts
+[2024-08-24 19:53:49][notice]Preparing to dump table wpce_yoast_indexable
+[2024-08-24 19:53:49][notice]Preparing to dump table wpce_e_notes
+[2024-08-24 19:53:49][notice]Preparing to dump table wpce_woocommerce_sessions
+[2024-08-24 19:53:49][notice]Preparing to dump table wpce_itsec_dashboard_events
+[2024-08-24 19:53:50][notice]Preparing to dump table wpce_e_submissions
+[2024-08-24 19:53:50][notice]Preparing to dump table wpce_itsec_temp
+[2024-08-24 19:53:53][notice]Preparing to dump table wpce_posts
+[2024-08-24 19:53:53][notice]Preparing to dump table wpce_options
+[2024-08-24 19:53:54][notice]Preparing to dump table wpce_postmeta
+[2024-08-24 19:53:54][notice]Preparing to dump table wpce_itsec_logs
+[2024-08-24 19:53:58][notice]Exporting database finished.
+[2024-08-24 19:53:58][notice]Start compressing database
+[2024-08-24 19:53:59][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_db.sql
+[2024-08-24 19:54:05][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_db.part001.zip, filesize: 6.57 MB
+[2024-08-24 19:54:05][notice]Compressing database completed
+[2024-08-24 19:54:06][notice]Backing up backup_db completed.
+[2024-08-24 19:54:06][notice]Prepare to backup backup_themes files.
+[2024-08-24 19:54:06][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_themes.part001.zip index:54
+[2024-08-24 19:54:06][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_themes.part001.zip success. index:54 file size:191.64 KB
+[2024-08-24 19:54:07][notice]Backing up backup_themes completed.
+[2024-08-24 19:54:07][notice]Prepare to backup backup_plugin files.
+[2024-08-24 19:54:23][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_plugin.part001.zip index:8807
+[2024-08-24 19:55:27][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_plugin.part001.zip success. index:8807 file size:56.17 MB
+[2024-08-24 19:55:28][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_plugin.part002.zip index:18859
+[2024-08-24 19:56:39][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_plugin.part002.zip success. index:18859 file size:77.97 MB
+[2024-08-24 19:56:41][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_plugin.part003.zip index:19500
+[2024-08-24 19:56:48][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_plugin.part003.zip success. index:19500 file size:7.59 MB
+[2024-08-24 19:56:49][notice]Backing up backup_plugin completed.
+[2024-08-24 19:56:49][notice]Prepare to backup backup_uploads files.
+[2024-08-24 19:56:50][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_uploads.part001.zip index:1074
+[2024-08-24 19:57:05][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_uploads.part001.zip success. index:1074 file size:57.30 MB
+[2024-08-24 19:57:06][notice]Backing up backup_uploads completed.
+[2024-08-24 19:57:07][notice]Prepare to backup backup_content files.
+[2024-08-24 19:57:07][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_content.part001.zip index:85
+[2024-08-24 19:57:09][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_content.part001.zip success. index:85 file size:1.25 MB
+[2024-08-24 19:57:10][notice]Backing up backup_content completed.
+[2024-08-24 19:57:10][notice]Prepare to backup backup_core files.
+[2024-08-24 19:57:12][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part001.zip index:2676
+[2024-08-24 19:57:31][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part001.zip success. index:2676 file size:14.01 MB
+[2024-08-24 19:57:31][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part002.zip index:2677
+[2024-08-24 19:57:45][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part002.zip success. index:2677 file size:204.35 MB
+[2024-08-24 19:57:50][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part003.zip index:2682
+[2024-08-24 19:57:50][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part003.zip success. index:2682 file size:68.55 KB
+[2024-08-24 19:57:51][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part004.zip index:2683
+[2024-08-24 19:59:29][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part004.zip success. index:2683 file size:1.17 GB
+[2024-08-24 20:00:18][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part005.zip index:2690
+[2024-08-24 20:00:18][notice]Compressing zip file:nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part005.zip success. index:2690 file size:16.08 KB
+[2024-08-24 20:00:19][notice]Backing up backup_core completed.
+[2024-08-24 20:00:19][notice]Prepare to backup backup_merge files.
+[2024-08-24 20:00:19][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_db.zip
+[2024-08-24 20:00:20][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part001.zip, filesize: 6.46 MB
+[2024-08-24 20:00:20][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_themes.zip
+[2024-08-24 20:00:20][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part001.zip, filesize: 6.64 MB
+[2024-08-24 20:00:20][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_plugin.part001.zip
+[2024-08-24 20:00:25][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part001.zip, filesize: 60.56 MB
+[2024-08-24 20:00:25][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_plugin.part002.zip
+[2024-08-24 20:00:33][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part001.zip, filesize: 136.72 MB
+[2024-08-24 20:00:34][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_plugin.part003.zip
+[2024-08-24 20:00:38][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part001.zip, filesize: 144.24 MB
+[2024-08-24 20:00:41][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_uploads.zip
+[2024-08-24 20:00:45][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part002.zip, filesize: 57.14 MB
+[2024-08-24 20:00:45][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_content.zip
+[2024-08-24 20:00:46][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part002.zip, filesize: 58.38 MB
+[2024-08-24 20:00:46][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part001.zip
+[2024-08-24 20:00:50][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part002.zip, filesize: 72.02 MB
+[2024-08-24 20:00:53][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part002.zip
+[2024-08-24 20:01:07][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part003.zip, filesize: 204.38 MB
+[2024-08-24 20:01:15][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part003.zip
+[2024-08-24 20:01:15][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part004.zip, filesize: 61.14 KB
+[2024-08-24 20:01:15][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part004.zip
+[2024-08-24 20:02:52][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part005.zip, filesize: 1.17 GB
+[2024-08-24 20:03:39][notice]Prepare to zip file. file: nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_core.part005.zip
+[2024-08-24 20:03:39][notice]Adding zip files completed.nakibjahan.com_wpvivid-66ca3a3e62bdc_2024-08-24-19-53_backup_all.part006.zip, filesize: 16.25 KB
+[2024-08-24 20:03:40][notice]Backing up backup_merge completed.
+[2024-08-24 20:03:40][notice]Backup completed.
+[2024-08-24 20:03:41][notice]LiteSpeed Server.
+[2024-08-24 20:03:41][notice]Clear LiteSpeed Rule

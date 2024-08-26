@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://nakibjahan.com/xmlrpc.php" />
+	
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>Website Design Archives - NAKIB JAHAN</title>
+<meta name="robots" content="noindex, nofollow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://nakibjahan.com/product-category/website-design" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Website Design Archives - NAKIB JAHAN" />
+<meta property="og:url" content="https://nakibjahan.com/product-category/website-design" />
+<meta property="og:site_name" content="NAKIB JAHAN" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Website Design Archives - NAKIB JAHAN" />
+<meta name="twitter:label1" content="Items" />
+<meta name="twitter:data1" content="3" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://nakibjahan.com/#person","name":"NAKIB JAHAN"},{"@type":"WebSite","@id":"https://nakibjahan.com/#website","url":"https://nakibjahan.com","name":"NAKIB JAHAN","alternateName":"NAKIB JAHAN","publisher":{"@id":"https://nakibjahan.com/#person"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://nakibjahan.com/product-category/website-design#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://nakibjahan.com","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://nakibjahan.com/product-category/website-design","name":"Website Design"}}]},{"@type":"CollectionPage","@id":"https://nakibjahan.com/product-category/website-design#webpage","url":"https://nakibjahan.com/product-category/website-design","name":"Website Design Archives - NAKIB JAHAN","isPartOf":{"@id":"https://nakibjahan.com/#website"},"inLanguage":"en-US","breadcrumb":{"@id":"https://nakibjahan.com/product-category/website-design#breadcrumb"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+
+<link rel="alternate" type="application/rss+xml" title="NAKIB JAHAN &raquo; Feed" href="https://nakibjahan.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="NAKIB JAHAN &raquo; Comments Feed" href="https://nakibjahan.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="NAKIB JAHAN &raquo; Website Design Category Feed" href="https://nakibjahan.com/product-category/website-design/feed" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v9.0.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script type="rocketlazyloadscript" data-rocket-src="//www.googletagmanager.com/gtag/js?id=G-6MJZ7B0455"  data-cfasync="false" data-wpfc-render="false" async></script>
+			<script type="rocketlazyloadscript" data-cfasync="false" data-wpfc-render="false">
+				var mi_version = '9.0.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/nakibjahan.com\/product-category\/website-design\/"};
+				if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-6MJZ7B0455',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-6MJZ7B0455', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<link data-minify="1" rel='stylesheet' id='wc-stripe-blocks-checkout-style-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/woocommerce-gateway-stripe/build/upe_blocks.css?ver=1724615018' media='all' />
+<link data-minify="1" rel='stylesheet' id='hfe-widgets-style-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1724615019' media='all' />
+<link data-minify="1" rel='stylesheet' id='jkit-elements-main-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=1724615019' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://nakibjahan.com/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1' media='all' />
+<style id='rank-math-toc-block-style-inline-css'>
+.wp-block-rank-math-toc-block nav ol{counter-reset:item}.wp-block-rank-math-toc-block nav ol li{display:block}.wp-block-rank-math-toc-block nav ol li:before{content:counters(item, ".") ". ";counter-increment:item}
+
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel='stylesheet' id='woocommerce-layout-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=1724615019' media='all' />
+<link data-minify="1" rel='stylesheet' id='woocommerce-smallscreen-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=1724615019' media='only screen and (max-width: 768px)' />
+<link data-minify="1" rel='stylesheet' id='woocommerce-general-css' href='https://nakibjahan.com/wp-content/cache/background-css/nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=1724615019&wpr_t=1724632001' media='all' />
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link data-minify="1" rel='stylesheet' id='hfe-style-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1724615019' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1724615019' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://nakibjahan.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.23.4' media='all' />
+<link data-minify="1" rel='stylesheet' id='swiper-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=1724615019' media='all' />
+<link rel='stylesheet' id='elementor-post-9-css' href='https://nakibjahan.com/wp-content/uploads/elementor/css/post-9.css?ver=1723634200' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://nakibjahan.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.23.3' media='all' />
+<link data-minify="1" rel='stylesheet' id='font-awesome-5-all-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1724615019' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://nakibjahan.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.23.4' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='https://nakibjahan.com/wp-content/uploads/elementor/css/global.css?ver=1723634202' media='all' />
+<link rel='stylesheet' id='elementor-post-421-css' href='https://nakibjahan.com/wp-content/uploads/elementor/css/post-421.css?ver=1723634203' media='all' />
+<link rel='stylesheet' id='elementor-post-426-css' href='https://nakibjahan.com/wp-content/uploads/elementor/css/post-426.css?ver=1723634203' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://nakibjahan.com/wp-content/themes/hello-elementor/style.min.css?ver=3.1.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://nakibjahan.com/wp-content/themes/hello-elementor/theme.min.css?ver=3.1.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://nakibjahan.com/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.1.1' media='all' />
+<link data-minify="1" rel='stylesheet' id='awcfe-frontend-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/checkout-field-editor-and-manager-for-woocommerce/assets/css/frontend.css?ver=1724615019' media='all' />
+<style id='rocket-lazyload-inline-css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:var(--wpr-bg-6eae33d9-b68d-4209-a46d-f323c0fc0df3) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<link data-minify="1" rel='stylesheet' id='google-fonts-1-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/uploads/omgf/google-fonts-1/google-fonts-1.css?ver=1724615019' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://nakibjahan.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=1724615019' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=1724615019' media='all' />
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=9.0.1" id="monsterinsights-frontend-script-js" data-rocket-defer defer></script>
+<script data-cfasync="false" data-wpfc-render="false" id='monsterinsights-frontend-script-js-extra'>var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/nakibjahan.com","hash_tracking":"false","v4_id":"G-6MJZ7B0455"};</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.2.2" id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.2.2" id="js-cookie-js" defer data-wp-strategy="defer"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.2.2" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.23.4" id="font-awesome-4-shim-js" data-rocket-defer defer></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="rocketlazyloadscript" data-rocket-src="https://www.googletagmanager.com/gtag/js?id=GT-NFBKR3K5" id="google_gtagjs-js" async></script>
+<script type="rocketlazyloadscript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["nakibjahan.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-NFBKR3K5");
+</script>
+
+<!-- End Google tag (gtag.js) snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://nakibjahan.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://nakibjahan.com/wp-json/wp/v2/product_cat/53" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nakibjahan.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<meta name="generator" content="Site Kit by Google 1.133.0" /><!-- HFCM by 99 Robots - Snippet # 1: Analytics -->
+<!-- Google tag (gtag.js) -->
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-J5G1YD4X9D"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J5G1YD4X9D');
+</script>
+<!-- /end HFCM by 99 Robots -->
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	
+<!-- Google AdSense meta tags added by Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- End Google AdSense meta tags added by Site Kit -->
+<meta name="generator" content="Elementor 3.23.4; features: e_optimized_css_loading, additional_custom_breakpoints, e_lazyload; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<style id='wp-fonts-local'>
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}
+</style>
+<style id="uagb-style-frontend-53">.uag-blocks-common-selector{z-index:var(--z-index-desktop) !important}@media (max-width: 976px){.uag-blocks-common-selector{z-index:var(--z-index-tablet) !important}}@media (max-width: 767px){.uag-blocks-common-selector{z-index:var(--z-index-mobile) !important}}
+</style><link rel="icon" href="https://nakibjahan.com/wp-content/uploads/icon-Copy-100x100.png" sizes="32x32" />
+<link rel="icon" href="https://nakibjahan.com/wp-content/uploads/icon-Copy-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://nakibjahan.com/wp-content/uploads/icon-Copy-300x300.png" />
+<meta name="msapplication-TileImage" content="https://nakibjahan.com/wp-content/uploads/icon-Copy-300x300.png" />
+		<style id="wp-custom-css">
+			.active-link a:hover {
+	color: #DF1613 !important;
+}
+
+.elementor-426 .elementor-element.elementor-element-f7f1fb4 .elementor-nav-menu--main .elementor-item:hover, .elementor-426 .elementor-element.elementor-element-f7f1fb4 .elementor-nav-menu--main .elementor-item.elementor-item-active, .elementor-426 .elementor-element.elementor-element-f7f1fb4 .elementor-nav-menu--main .elementor-item.highlighted, .elementor-426 .elementor-element.elementor-element-f7f1fb4 .elementor-nav-menu--main .elementor-item:focus {
+    color: #fff;
+    fill: #D12828;
+    background: #55595c;
+}
+
+.elementor-posts .elementor-post {
+    
+    padding: 17px !important;
+}		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><style id="wpr-lazyload-bg-container"></style><style id="wpr-lazyload-bg-exclusion"></style>
+<noscript>
+<style id="wpr-lazyload-bg-nostyle">.woocommerce .blockUI.blockOverlay::before{--wpr-bg-ba3792a2-deae-4c70-be0f-7789ace0100a: url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/images/icons/loader.svg');}.woocommerce .loader::before{--wpr-bg-9b8b7079-8275-46f9-8c72-11fb5199c1eb: url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/images/icons/loader.svg');}#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.visa,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.visa,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.visa,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.visa,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.visa,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.visa,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.visa,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.visa,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.visa{--wpr-bg-8f33fd13-08d4-47c4-b394-68d81d8f595a: url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg');}#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.mastercard,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.mastercard,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.mastercard{--wpr-bg-b5cb5cbe-2b1c-4aa1-a270-994c30a1890d: url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.svg');}#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.laser,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.laser,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.laser,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.laser,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.laser,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.laser,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.laser,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.laser,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.laser{--wpr-bg-a5e17db5-ce9e-45ae-addf-b18c9153ac48: url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.svg');}#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.dinersclub,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.dinersclub,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.dinersclub{--wpr-bg-38966e7d-5885-444c-b4ae-0e157bbcf2cb: url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.svg');}#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.maestro,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.maestro,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.maestro{--wpr-bg-587afe92-9d67-4111-bd70-574ef86c3e8d: url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.svg');}#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.jcb,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.jcb,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.jcb{--wpr-bg-696ee895-a29e-42c2-94f7-d90eee345a9f: url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.svg');}#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.amex,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.amex,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.amex,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.amex,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.amex,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.amex,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.amex,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.amex,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.amex{--wpr-bg-82c02363-3170-4e67-bc85-426f73f78261: url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.svg');}#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.discover,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.discover,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.discover,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.discover,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.discover,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.discover,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.discover,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.discover,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.discover{--wpr-bg-ebf4a0cd-4b94-4d48-8e23-678a940e0f4a: url('https://nakibjahan.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.svg');}.rll-youtube-player .play{--wpr-bg-6eae33d9-b68d-4209-a46d-f323c0fc0df3: url('https://nakibjahan.com/wp-content/plugins/wp-rocket/assets/img/youtube.png');}</style>
+</noscript>
+<script type="application/javascript">const rocket_pairs = [{"selector":".woocommerce .blockUI.blockOverlay","style":".woocommerce .blockUI.blockOverlay::before{--wpr-bg-ba3792a2-deae-4c70-be0f-7789ace0100a: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/loader.svg');}","hash":"ba3792a2-deae-4c70-be0f-7789ace0100a","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/loader.svg"},{"selector":".woocommerce .loader","style":".woocommerce .loader::before{--wpr-bg-9b8b7079-8275-46f9-8c72-11fb5199c1eb: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/loader.svg');}","hash":"9b8b7079-8275-46f9-8c72-11fb5199c1eb","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/loader.svg"},{"selector":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.visa,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.visa,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.visa,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.visa,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.visa,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.visa,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.visa,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.visa,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.visa","style":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.visa,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.visa,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.visa,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.visa,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.visa,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.visa,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.visa,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.visa,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.visa{--wpr-bg-8f33fd13-08d4-47c4-b394-68d81d8f595a: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/visa.svg');}","hash":"8f33fd13-08d4-47c4-b394-68d81d8f595a","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/visa.svg"},{"selector":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.mastercard,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.mastercard,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.mastercard","style":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.mastercard,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.mastercard,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.mastercard{--wpr-bg-b5cb5cbe-2b1c-4aa1-a270-994c30a1890d: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/mastercard.svg');}","hash":"b5cb5cbe-2b1c-4aa1-a270-994c30a1890d","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/mastercard.svg"},{"selector":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.laser,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.laser,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.laser,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.laser,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.laser,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.laser,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.laser,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.laser,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.laser","style":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.laser,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.laser,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.laser,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.laser,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.laser,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.laser,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.laser,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.laser,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.laser{--wpr-bg-a5e17db5-ce9e-45ae-addf-b18c9153ac48: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/laser.svg');}","hash":"a5e17db5-ce9e-45ae-addf-b18c9153ac48","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/laser.svg"},{"selector":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.dinersclub,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.dinersclub,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.dinersclub","style":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.dinersclub,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.dinersclub,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.dinersclub{--wpr-bg-38966e7d-5885-444c-b4ae-0e157bbcf2cb: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/diners.svg');}","hash":"38966e7d-5885-444c-b4ae-0e157bbcf2cb","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/diners.svg"},{"selector":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.maestro,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.maestro,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.maestro","style":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.maestro,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.maestro,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.maestro{--wpr-bg-587afe92-9d67-4111-bd70-574ef86c3e8d: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/maestro.svg');}","hash":"587afe92-9d67-4111-bd70-574ef86c3e8d","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/maestro.svg"},{"selector":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.jcb,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.jcb,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.jcb","style":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.jcb,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.jcb,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.jcb{--wpr-bg-696ee895-a29e-42c2-94f7-d90eee345a9f: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/jcb.svg');}","hash":"696ee895-a29e-42c2-94f7-d90eee345a9f","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/jcb.svg"},{"selector":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.amex,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.amex,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.amex,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.amex,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.amex,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.amex,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.amex,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.amex,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.amex","style":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.amex,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.amex,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.amex,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.amex,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.amex,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.amex,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.amex,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.amex,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.amex{--wpr-bg-82c02363-3170-4e67-bc85-426f73f78261: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/amex.svg');}","hash":"82c02363-3170-4e67-bc85-426f73f78261","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/amex.svg"},{"selector":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.discover,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.discover,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.discover,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.discover,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.discover,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.discover,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.discover,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.discover,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.discover","style":"#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.discover,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.discover,#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.discover,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.discover,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.discover,.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.discover,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.discover,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.discover,.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.discover{--wpr-bg-ebf4a0cd-4b94-4d48-8e23-678a940e0f4a: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/discover.svg');}","hash":"ebf4a0cd-4b94-4d48-8e23-678a940e0f4a","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/credit-cards\/discover.svg"},{"selector":".rll-youtube-player .play","style":".rll-youtube-player .play{--wpr-bg-6eae33d9-b68d-4209-a46d-f323c0fc0df3: url('https:\/\/nakibjahan.com\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png');}","hash":"6eae33d9-b68d-4209-a46d-f323c0fc0df3","url":"https:\/\/nakibjahan.com\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png"}]; const rocket_excluded_pairs = [];</script></head>
+
+<body class="archive tax-product_cat term-website-design term-53 theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-kit-9">
+<div id="page" class="hfeed site">
+
+		<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+			<p class="main-title bhf-hidden" itemprop="headline"><a href="https://nakibjahan.com" title="NAKIB JAHAN" rel="home">NAKIB JAHAN</a></p>
+					<div data-elementor-type="wp-post" data-elementor-id="421" class="elementor elementor-421" data-elementor-post-type="elementor-hf">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-1dad8a0 elementor-section-full_width elementor-hidden-tablet elementor-hidden-mobile elementor-section-height-default elementor-section-height-default" data-id="1dad8a0" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8e6083" data-id="f8e6083" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-d62bb66 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d62bb66" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d44e47f" data-id="d44e47f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-01037ee elementor-widget elementor-widget-heading" data-id="01037ee" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default"><a href="https://socmid.com" target="_blank">Hire My Agency</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-db1dfaf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="db1dfaf" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-167f139" data-id="167f139" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-06783d9 elementor-widget elementor-widget-heading" data-id="06783d9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="/">Nakib Jahan</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2aba2a7" data-id="2aba2a7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-49a058c elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="49a058c" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://nakibjahan.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=1722865634">			<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-49a058c" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2215"><a href="https://nakibjahan.com/about" class="elementor-item">ABOUT</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://nakibjahan.com/companies" class="elementor-item">COMPANIES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1099"><a href="https://nakibjahan.com/services" class="elementor-item">SERVICES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434"><a href="https://nakibjahan.com/blog" class="elementor-item">BLOG</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-49a058c" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2215"><a href="https://nakibjahan.com/about" class="elementor-item" tabindex="-1">ABOUT</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://nakibjahan.com/companies" class="elementor-item" tabindex="-1">COMPANIES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1099"><a href="https://nakibjahan.com/services" class="elementor-item" tabindex="-1">SERVICES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434"><a href="https://nakibjahan.com/blog" class="elementor-item" tabindex="-1">BLOG</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-fcfa153" data-id="fcfa153" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-95594b5 elementor-widget elementor-widget-jkit_search" data-id="95594b5" data-element_type="widget" data-widget_type="jkit_search.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-search jeg_module___66cbcbc0e4004" ><a href="#" class="jkit-search-modal"><i aria-hidden="true" class="fas fa-search"></i></a>
+			<div class="jkit-modal-search-panel-wrapper">
+				<div class="jkit-modal-search-panel">
+					<div class="jkit-search-panel">
+					<form role="search" method="get" class="jkit-search-group" action="https://nakibjahan.com/">
+						<input type="search" class="jkit-search-field" placeholder="Search..." value="" name="s" />
+						<button type="submit" class="jkit-search-button" aria-label="search-button"><i aria-hidden="true" class="fas fa-search"></i></button>
+					</form>
+				</div>
+				</div>
+			</div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ecbabbe elementor-section-full_width elementor-hidden-desktop elementor-section-height-default elementor-section-height-default" data-id="ecbabbe" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ff28022" data-id="ff28022" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-bee3055 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bee3055" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-b65a93e" data-id="b65a93e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-59c9b0a elementor-widget elementor-widget-heading" data-id="59c9b0a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://socmid.com" target="_blank">Hire My Agency</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-f659103 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default" data-id="f659103" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ee3a6a8" data-id="ee3a6a8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-10834c1 elementor-widget elementor-widget-button" data-id="10834c1" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#MENU">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">MENU</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3ffae58" data-id="3ffae58" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1a632c6 elementor-widget elementor-widget-heading" data-id="1a632c6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="/">Nakib Jahan</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2bdf181" data-id="2bdf181" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-915d658 elementor-widget elementor-widget-jkit_search" data-id="915d658" data-element_type="widget" data-widget_type="jkit_search.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-search jeg_module__1_66cbcbc0ead03" ><a href="#" class="jkit-search-modal"><i aria-hidden="true" class="fas fa-search"></i></a>
+			<div class="jkit-modal-search-panel-wrapper">
+				<div class="jkit-modal-search-panel">
+					<div class="jkit-search-panel">
+					<form role="search" method="get" class="jkit-search-group" action="https://nakibjahan.com/">
+						<input type="search" class="jkit-search-field" placeholder="Search..." value="" name="s" />
+						<button type="submit" class="jkit-search-button" aria-label="search-button"><i aria-hidden="true" class="fas fa-search"></i></button>
+					</form>
+				</div>
+				</div>
+			</div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				</header>
+
+	<div id="primary" class="content-area"><main id="main" class="site-main" role="main"><nav class="woocommerce-breadcrumb" aria-label="Breadcrumb"><a href="https://nakibjahan.com">Home</a>&nbsp;&#47;&nbsp;Website Design</nav><header class="woocommerce-products-header">
+			<h1 class="woocommerce-products-header__title page-title">Website Design</h1>
+	
+	</header>
+<div class="woocommerce-no-products-found">
+	
+	<div class="woocommerce-info">
+		No products were found matching your selection.	</div>
+</div>
+</main></div>
+		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+			<div class='footer-width-fixer'>		<div data-elementor-type="wp-post" data-elementor-id="426" class="elementor elementor-426" data-elementor-post-type="elementor-hf">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-39371d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="39371d0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c4f6d1d" data-id="c4f6d1d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-6387c33 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6387c33" data-element_type="section" id="MENU">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8705404" data-id="8705404" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-27e5db0 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="27e5db0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://nakibjahan.com">Nakib Jahan</a></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b534845 elementor-widget elementor-widget-heading" data-id="b534845" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Let's Connect</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ee95d9a e-grid-align-left elementor-grid-6 elementor-widget__width-initial elementor-shape-rounded elementor-widget elementor-widget-social-icons" data-id="ee95d9a" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));height:calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:inline-flex;background-color:#69727d;align-items:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#69727d}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-threads{background-color:#000}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-x-twitter{background-color:#000}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style>		<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-bf40797" href="https://web.facebook.com/nakibjahanofficial69">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-bd8d7d3" href="https://www.instagram.com/nakibjahan/">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-12dd6ef" href="https://www.youtube.com/@nakibjahanofficial/">
+						<span class="elementor-screen-only">Youtube</span>
+						<i class="fab fa-youtube"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-d9c51f5" href="https://twitter.com/nakibjahan69">
+						<span class="elementor-screen-only">Twitter</span>
+						<i class="fab fa-twitter"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-5271abd" href="https://www.linkedin.com/in/nakibjahan/">
+						<span class="elementor-screen-only">Linkedin</span>
+						<i class="fab fa-linkedin"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-tiktok elementor-repeater-item-499684a" href="https://www.tiktok.com/@nakib.jahan">
+						<span class="elementor-screen-only">Tiktok</span>
+						<i class="fab fa-tiktok"></i>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-de07535 elementor-widget elementor-widget-html" data-id="de07535" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<a href="//www.dmca.com/Protection/Status.aspx?ID=aa253ff6-587b-43c5-a231-66757820eff4" title="DMCA.com Protection Status" class="dmca-badge"> <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"  alt="DMCA.com Protection Status" data-lazy-src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=aa253ff6-587b-43c5-a231-66757820eff4" /><noscript><img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=aa253ff6-587b-43c5-a231-66757820eff4"  alt="DMCA.com Protection Status" /></noscript></a>  <script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://nakibjahan.com/wp-content/cache/min/1/Badges/DMCABadgeHelper.min.js?ver=1724615019" data-rocket-defer defer> </script>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2bbfb9e" data-id="2bbfb9e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-47cdea9 elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="47cdea9" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
+				<ul id="menu-1-47cdea9" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2215"><a href="https://nakibjahan.com/about" class="elementor-item">ABOUT</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://nakibjahan.com/companies" class="elementor-item">COMPANIES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1099"><a href="https://nakibjahan.com/services" class="elementor-item">SERVICES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434"><a href="https://nakibjahan.com/blog" class="elementor-item">BLOG</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-47cdea9" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2215"><a href="https://nakibjahan.com/about" class="elementor-item" tabindex="-1">ABOUT</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://nakibjahan.com/companies" class="elementor-item" tabindex="-1">COMPANIES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1099"><a href="https://nakibjahan.com/services" class="elementor-item" tabindex="-1">SERVICES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434"><a href="https://nakibjahan.com/blog" class="elementor-item" tabindex="-1">BLOG</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-49909ad" data-id="49909ad" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1c10c03 elementor-widget elementor-widget-heading" data-id="1c10c03" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Join My Google Knowledge Panel Course</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5151a94 elementor-align-center elementor-widget elementor-widget-button" data-id="5151a94" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-md" href="https://courses.nakibjahan.com/courses/google-knowledge-panel-course/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">JOIN MY COURSE</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f44b612 elementor-widget elementor-widget-heading" data-id="f44b612" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="/">© Nakib Jahan</a></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-23a1a45 e-transform active-link elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="23a1a45" data-element_type="widget" data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://nakibjahan.com/privacy-refund-policy/" rel="nofollow">PRIVACY &amp; REFUND POLICY</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>		</footer>
+	</div><!-- #page -->
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https:\/\/nakibjahan.com"}},{"@type":"ListItem","position":2,"item":{"name":"Website Design","@id":"https:\/\/nakibjahan.com\/product-category\/website-design"}}]}</script>			<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+				<script type="rocketlazyloadscript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link data-minify="1" rel='stylesheet' id='wc-blocks-style-css' href='https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=1724615019' media='all' />
+<link rel='stylesheet' id='jeg-dynamic-style-css' href='https://nakibjahan.com/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles.css?ver=1.3.0' media='all' />
+<link rel='stylesheet' id='sweetalert2-css' href='https://nakibjahan.com/wp-content/plugins/jeg-elementor-kit/assets/js/sweetalert2/sweetalert2.min.css?ver=11.6.16' media='all' />
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js" data-rocket-defer defer></script>
+<script id="starter-templates-zip-preview-js-extra">
+var starter_templates_zip_preview = {"AstColorPaletteVarPrefix":"--ast-global-","AstEleColorPaletteVarPrefix":"--ast-global-"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?ver=1724615019" id="starter-templates-zip-preview-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/checkout?(.*)|\/cart|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/nakibjahan.com","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script id="rocket_lazyload_css-js-extra">
+var rocket_lazyload_css_data = {"threshold":"300"};
+</script>
+<script id="rocket_lazyload_css-js-after">
+!function o(n,c,a){function u(t,e){if(!c[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(s)return s(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=c[t]={exports:{}},n[t][0].call(r.exports,function(e){return u(n[t][1][e]||e)},r,r.exports,o,n,c,a)}return c[t].exports}for(var s="function"==typeof require&&require,e=0;e<a.length;e++)u(a[e]);return u}({1:[function(e,t,r){"use strict";{const c="undefined"==typeof rocket_pairs?[]:rocket_pairs,a=(("undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs).map(t=>{var e=t.selector;document.querySelectorAll(e).forEach(e=>{e.setAttribute("data-rocket-lazy-bg-"+t.hash,"excluded")})}),document.querySelector("#wpr-lazyload-bg-container"));var o=rocket_lazyload_css_data.threshold||300;const u=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&c.filter(e=>t.target.matches(e.selector)).map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,a.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{u.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:o+"px"});function n(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&c.forEach(t=>{try{document.querySelectorAll(t.selector).forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(u.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}n(),function(){const r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}}()(document.querySelector("body"),n)}},{}]},{},[1]);
+//# sourceMappingURL=lazyload-css.min.js.map
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.1.1" id="hello-theme-frontend-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.2.2" id="sourcebuster-js-js" data-rocket-defer defer></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/nakibjahan.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.2.2" id="wc-order-attribution-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.23.4" id="elementor-webpack-runtime-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.4" id="elementor-frontend-modules-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.23.4","is_static":false,"experimentalFeatures":{"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"container_grid":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_onboarding":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"home_screen":true,"ai-layout":true,"landing-pages":true,"e_lazyload":true,"display-conditions":true,"form-submissions":true,"taxonomy-filter":true},"urls":{"assets":"https:\/\/nakibjahan.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/nakibjahan.com\/wp-admin\/admin-ajax.php"},"nonces":{"floatingButtonsClickTracking":"068a1f5549"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[],"hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":0,"title":"Website Design Archives - NAKIB JAHAN","excerpt":""}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.4" id="elementor-frontend-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-after">
+var jkit_ajax_url = "https://nakibjahan.com/?jkit-ajax-request=jkit_elements", jkit_nonce = "3c471babbe";
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/jeg-elementor-kit/assets/js/elements/sticky-element.js?ver=1724615019" id="jkit-sticky-element-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.23.3" id="e-sticky-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://nakibjahan.com/wp-content/cache/min/1/wp-content/plugins/jeg-elementor-kit/assets/js/elements/search.js?ver=1724615019" id="jkit-element-search-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/jeg-elementor-kit/assets/js/sweetalert2/sweetalert2.min.js?ver=11.6.16" id="sweetalert2-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.23.3" id="elementor-pro-webpack-runtime-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="rocketlazyloadscript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/nakibjahan.com\/wp-admin\/admin-ajax.php","nonce":"32165559c6","urls":{"assets":"https:\/\/nakibjahan.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/nakibjahan.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"woocommerce":{"menu_cart":{"cart_page_url":"https:\/\/nakibjahan.com\/cart","checkout_page_url":"https:\/\/nakibjahan.com\/checkout","fragments_nonce":"6eb1433c81"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/nakibjahan.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.23.3" id="elementor-pro-frontend-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://nakibjahan.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.23.3" id="pro-elements-handlers-js" data-rocket-defer defer></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://nakibjahan.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img fetchpriority="high" data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=[];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script><script type="rocketlazyloadscript">var rocket_beacon_data = {"ajax_url":"https:\/\/nakibjahan.com\/wp-admin\/admin-ajax.php","nonce":"f055bfe46e","url":"https:\/\/nakibjahan.com\/product-category\/website-design","is_mobile":true,"width_threshold":393,"height_threshold":830,"delay":500,"debug":null,"status":{"atf":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span"}</script><script type="rocketlazyloadscript" data-name="wpr-wpr-beacon" data-rocket-src='https://nakibjahan.com/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js' async></script><script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script></body>
+</html> 
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1724632001 -->

@@ -1,0 +1,60 @@
+[28-Nov-2023 14:58:51 America/New_York] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/nakiyjif/public_html/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-http.php on line 11
+[28-Nov-2023 14:59:04 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/nakiyjif/public_html/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-scripts.php on line 18
+[28-Nov-2023 14:59:07 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/nakiyjif/public_html/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-styles.php on line 18
+[28-Nov-2023 15:04:59 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/nakiyjif/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/template-canvas.php on line 12
+[29-Nov-2023 04:10:15 America/New_York] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/nakiyjif/public_html/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-http.php on line 11
+[29-Nov-2023 04:10:30 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/nakiyjif/public_html/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-scripts.php on line 18
+[29-Nov-2023 04:10:36 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/nakiyjif/public_html/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-styles.php on line 18
+[29-Nov-2023 04:12:45 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/nakiyjif/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/template-canvas.php on line 12
+[01-Dec-2023 16:25:36 America/New_York] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/nakiyjif/public_html/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-http.php on line 11
+[01-Dec-2023 16:25:37 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/nakiyjif/public_html/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-styles.php on line 18
+[01-Dec-2023 16:25:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/nakiyjif/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/template-canvas.php on line 12
+[02-Dec-2023 16:37:23 America/New_York] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/nakiyjif/public_html/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-http.php on line 11
+[02-Dec-2023 16:37:24 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/nakiyjif/public_html/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-scripts.php on line 18
+[02-Dec-2023 16:37:24 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/nakiyjif/public_html/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/class-wp-styles.php on line 18
+[02-Dec-2023 16:37:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/nakiyjif/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/template-canvas.php on line 12

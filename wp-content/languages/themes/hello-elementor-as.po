@@ -1,0 +1,407 @@
+# Translation of Themes - Hello Elementor in Assamese
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-01 10:47:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: as_IN\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor page builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators."
+msgstr "Hello Elementor হৈছে এটা লাইটওৱেইট আৰু মিনিমেলিষ্ট WordPress থীম যি বিশেষভাৱে Elementor পে’জ বীল্ডাৰ প্লাগিনৰ সৈতে নিৰৱচ্ছিন্নভাৱে কাম কৰিব পৰাকৈ সজা হৈছে। থীমটো বিনামূলীয়া, মুক্ত উৎসৰ আৰু যিসকল ব্যৱহাৰকাৰীয়ে লেহুকা, সহজব্যৱহাৰ্য আৰু কাষ্টমাইজ কৰি পৰা ৱেবছাইট বিচাৰে, তেওঁলোকৰ বাবে ডিজাইন কৰা হৈছে। কাৰ্য্যক্ষমতাৰ বাবে অনুকূলিত থীমটোৱে ব্যৱহাৰকাৰীসকলৰ বাবে Elementor ড্ৰেগ-এণ্ড-ড্ৰপ ছাইট বীল্ডাৰ ব্যৱহাৰ কৰি নিজৰ সুকীয়া ডিজাইন সাজিবলৈ এক দৃঢ় ভেটি প্ৰদান কৰে। ইয়াৰ সৰলতা আৰু লেহুকা গুণে ইয়াক অনভিজ্ঞ আৰু অভিজ্ঞ ৱেব সৃষ্টিকাৰী উভয়ৰে বাবে এক শ্ৰেষ্ঠ পছন্দ কৰি তোলে।"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+#: includes/settings-functions.php:19
+msgid "Theme Settings"
+msgstr "থীমৰ ছেটিংছ"
+
+#: includes/settings-functions.php:18 assets/js/hello-admin.js:103
+#: assets/js/hello-admin.js:144
+msgid "Hello Theme Settings"
+msgstr "Hello থীমৰ ছেটিংছ"
+
+#. translators: %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:279
+#: includes/settings/settings-header.php:269
+#: includes/settings/settings-header.php:286
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's title"
+msgstr "আপোনাৰ ছাইটৰ শীৰ্ষক পৰিচালনা কৰিবলৈ <a href=\"%s\">ছাইটৰ পৰিচয়</a>লৈ যাওক"
+
+#: includes/admin-functions.php:139
+msgid "Explore Elementor Page Builder Plugin"
+msgstr "Elementor পে’জ বীল্ডাৰ প্লাগিন অন্বেষণ কৰক"
+
+#: includes/admin-functions.php:47
+msgid "The Hello Theme is a lightweight starter theme that works perfectly with the Elementor award-winning page builder plugin. Once you download and activate the plugin, you are only 1 click away from building an amazing website."
+msgstr "Hello থীম হৈছে এটা লাইটওৱেইট ষ্টাৰ্টাৰ থীম যি Elementor বঁটা-বিজয়ী পে’জ বীল্ডাৰ প্লাগিনৰ সৈতে নিখুঁতভাৱে কাম কৰে। আপুনি প্লাগিনটো এবাৰ ডাউনল’ড কৰি সক্ৰিয় কৰিলেই আপুনি এটা বিচিত্ৰ ৱেবছাইট নিৰ্মাণৰ পৰা মাত্ৰ এটা ক্লিকৰ দূৰত্বত থাকিব।"
+
+#: includes/admin-functions.php:38
+msgid "The Hello Theme is a lightweight starter theme that works perfectly with the Elementor award-winning page builder plugin. Once you activate the plugin, you are only 1 click away from building an amazing website."
+msgstr "Hello থীম হৈছে এটা লাইটওৱেইট ষ্টাৰ্টাৰ থীম যি Elementor বঁটা-বিজয়ী পে’জ বীল্ডাৰ প্লাগিনৰ সৈতে নিখুঁতভাৱে কাম কৰে। আপুনি প্লাগিনটো এবাৰ সক্ৰিয় কৰিলেই আপুনি এটা বিচিত্ৰ ৱেবছাইট নিৰ্মাণৰ পৰা মাত্ৰ এটা ক্লিকৰ দূৰত্বত থাকিব।"
+
+#: includes/settings/settings-footer.php:495
+#: includes/settings/settings-header.php:518
+msgid "Upgrade"
+msgstr "আপগ্ৰে’ড কৰক"
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "এৰি বিষয়বস্তুলৈ যাওক"
+
+#: includes/settings/settings-header.php:534
+msgid "Create Header"
+msgstr "শিৰোশাৰীৰ সৃষ্টি কৰক"
+
+#: includes/settings/settings-header.php:532
+msgid "Create a custom header with the new Theme Builder"
+msgstr "নতুন থীম বীল্ডাৰেদি এটা কাষ্টম শিৰোশাৰীৰ সৃষ্টি কৰক"
+
+#: includes/settings/settings-header.php:516
+msgid "Create a custom header with multiple options"
+msgstr "একাধিক বিকল্প থকা এটা কাষ্টম শিৰোশাৰীৰ সৃষ্টি কৰক"
+
+#: includes/settings/settings-header.php:467
+msgid "Toggle Color"
+msgstr "ৰং ট’গল কৰক"
+
+#: includes/settings/settings-header.php:441
+msgid "None"
+msgstr "এটাও নহয়"
+
+#. translators: %d: Breakpoint number.
+#: includes/settings/settings-header.php:440
+msgid "Tablet (< %dpx)"
+msgstr "টেবলেট (< %dpx)"
+
+#. translators: %d: Breakpoint number.
+#: includes/settings/settings-header.php:438
+msgid "Mobile (< %dpx)"
+msgstr "ম’বাইল (< %dpx)"
+
+#: includes/settings/settings-header.php:433
+msgid "Breakpoint"
+msgstr "ব্ৰেকপইণ্ট"
+
+#: includes/settings/settings-header.php:422
+msgid "Dropdown"
+msgstr "ড্ৰপ্‌ডাউন"
+
+#: includes/settings/settings-header.php:421
+msgid "Horizontal"
+msgstr "পথালি"
+
+#: includes/settings/settings-header.php:417
+msgid "Menu Layout"
+msgstr "মেন্যুৰ লে’আউট"
+
+#: includes/settings/settings-footer.php:511
+msgid "Create Footer"
+msgstr "পাদশাৰীৰ সৃষ্টি কৰক"
+
+#: includes/settings/settings-footer.php:510
+#: includes/settings/settings-header.php:533
+msgid "With the new Theme Builder you can jump directly into each part of your site"
+msgstr "নতুন থীম বীল্ডাৰৰ সৈতে আপুনি আপোনাৰ ছাইটৰ প্ৰতিটো অংশত পোনপটীয়াকৈ জঁপিয়াই যাব পাৰিব"
+
+#: includes/settings/settings-footer.php:509
+msgid "Create a custom footer with the new Theme Builder"
+msgstr "নতুন থীম বীল্ডাৰেদি এটা কাষ্টম পাদশাৰীৰ সৃষ্টি কৰক"
+
+#: includes/settings/settings-footer.php:494
+#: includes/settings/settings-header.php:517
+msgid "Upgrade to Elementor Pro and enjoy free design and many more features"
+msgstr "Elementor Pro-লৈ আপগ্ৰে’ড কৰক আৰু বিনামূলীয়া ডিজাইনৰ লগতে বহুতো সা-সুবিধা উপভোগ কৰক"
+
+#: includes/settings/settings-footer.php:493
+msgid "Create a custom footer with multiple options"
+msgstr "একাধিক বিকল্প থকা এটা কাষ্টম পাদশাৰীৰ সৃষ্টি কৰক"
+
+#: includes/settings/settings-footer.php:438
+msgid "All rights reserved"
+msgstr "সৰ্বস্বত্ত্ব সংৰক্ষিত"
+
+#: includes/settings/settings-footer.php:396
+#: includes/settings/settings-header.php:453
+msgid "Color"
+msgstr "ৰং"
+
+#: includes/settings/settings-footer.php:388
+#: includes/settings/settings-header.php:409
+msgid "Changes will be reflected in the preview only after the page reloads."
+msgstr "পৃষ্ঠাখন পুনৰ ল’ড কৰাৰ পাছতহে সাল-সলনি পূৰ্বদৰ্শনত প্ৰতিফলিত হ’ব।"
+
+#: includes/settings/settings-footer.php:380
+#: includes/settings/settings-header.php:401
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your menus."
+msgstr "আপোনাৰ মেন্যুবোৰ পৰিচালনা কৰিবলৈ <a href=\"%s\" target=\"_blank\">মেন্যুবোৰৰ স্ক্ৰীন</a>লৈ যাওক।"
+
+#: includes/settings/settings-footer.php:367
+#: includes/settings/settings-header.php:388
+msgid "Go to <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr "মেন্যুৰ সৃষ্টি কৰিবলৈ <a href=\"%s\" target=\"_blank\">মেন্যুবোৰৰ স্ক্ৰীন</a>লৈ যাওক।"
+
+#: includes/settings/settings-footer.php:367
+#: includes/settings/settings-header.php:388
+msgid "There are no menus in your site."
+msgstr "আপোনাৰ ছাইটত কোনো মেন্যু নাই।"
+
+#: includes/settings/settings-footer.php:357
+#: includes/settings/settings-header.php:378
+msgid "— Select a Menu —"
+msgstr "— মেন্যু বাছনি কৰক —"
+
+#. translators: %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:335
+#: includes/settings/settings-header.php:349
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's tagline"
+msgstr "আপোনাৰ ছাইটৰ টেগলাইন পৰিচালনা কৰিবলৈ <a href=\"%s\">ছাইটৰ পৰিচয়</a>লৈ যাওক"
+
+#: includes/settings/settings-footer.php:263
+#: includes/settings/settings-footer.php:321
+#: includes/settings/settings-footer.php:408
+#: includes/settings/settings-footer.php:460
+#: includes/settings/settings-header.php:266
+#: includes/settings/settings-header.php:335
+#: includes/settings/settings-header.php:482
+msgid "Typography"
+msgstr "টাইপ’গ্ৰাফী"
+
+#: includes/settings/settings-footer.php:247
+#: includes/settings/settings-footer.php:306
+#: includes/settings/settings-footer.php:445
+#: includes/settings/settings-header.php:250
+#: includes/settings/settings-header.php:320
+msgid "Text Color"
+msgstr "পাঠৰ ৰং"
+
+#. translators: %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:219
+#: includes/settings/settings-header.php:222
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's logo"
+msgstr "আপোনাৰ ছাইটৰ ল’গ’ পৰিচালনা কৰিবলৈ <a href=\"%s\">ছাইটৰ পৰিচয়</a>লৈ যাওক"
+
+#: includes/settings/settings-footer.php:216
+#: includes/settings/settings-header.php:219
+msgid "Logo Width"
+msgstr "ল’গ’ৰ প্ৰস্থ"
+
+#: includes/settings/settings-footer.php:206
+#: includes/settings/settings-header.php:209
+msgid "Title"
+msgstr "শীৰ্ষক"
+
+#: includes/settings/settings-footer.php:205
+#: includes/settings/settings-header.php:208
+msgid "Logo"
+msgstr "ল’গ’"
+
+#: includes/settings/settings-footer.php:201
+#: includes/settings/settings-header.php:204
+msgid "Type"
+msgstr "প্ৰকাৰ"
+
+#: includes/settings/settings-footer.php:179
+#: includes/settings/settings-header.php:175
+msgid "Background"
+msgstr "পটভূমি"
+
+#: includes/settings/settings-footer.php:153
+#: includes/settings/settings-header.php:139
+msgid "Gap"
+msgstr "ব্যৱধান"
+
+#: includes/settings/settings-footer.php:127
+#: includes/settings/settings-header.php:113
+msgid "Content Width"
+msgstr "বিষয়বস্তুৰ প্ৰস্থ"
+
+#: includes/settings/settings-footer.php:116
+#: includes/settings/settings-header.php:102
+msgid "Full Width"
+msgstr "পূৰ্ণ প্ৰস্থ"
+
+#: includes/settings/settings-footer.php:115
+#: includes/settings/settings-header.php:101
+msgid "Boxed"
+msgstr "বাকচ-যুক্ত"
+
+#: includes/settings/settings-footer.php:113
+#: includes/settings/settings-header.php:99
+msgid "Width"
+msgstr "প্ৰস্থ"
+
+#: includes/settings/settings-footer.php:102
+#: includes/settings/settings-header.php:88
+msgid "Centered"
+msgstr "কেন্দ্ৰীভূত"
+
+#: includes/settings/settings-footer.php:101
+#: includes/settings/settings-header.php:87
+msgid "Inverted"
+msgstr "উলুটিওৱা"
+
+#: includes/settings/settings-footer.php:100
+#: includes/settings/settings-header.php:86
+msgid "Default"
+msgstr "ডিফ’ল্ট"
+
+#: includes/settings/settings-footer.php:98
+#: includes/settings/settings-header.php:84
+msgid "Layout"
+msgstr "লে’আউট"
+
+#: includes/settings/settings-footer.php:86
+#: includes/settings/settings-footer.php:420
+msgid "Copyright"
+msgstr "প্ৰতিলিপি-স্বত্ত্ব"
+
+#: includes/settings/settings-footer.php:74
+#: includes/settings/settings-footer.php:348
+#: includes/settings/settings-footer.php:376
+#: includes/settings/settings-header.php:73
+#: includes/settings/settings-header.php:362
+#: includes/settings/settings-header.php:397
+#: template-parts/dynamic-header.php:59
+msgid "Menu"
+msgstr "মেন্যু"
+
+#: includes/settings/settings-footer.php:62
+#: includes/settings/settings-footer.php:296
+#: includes/settings/settings-header.php:62
+#: includes/settings/settings-header.php:303
+msgid "Tagline"
+msgstr "টেগলাইন"
+
+#: includes/settings/settings-footer.php:53
+#: includes/settings/settings-footer.php:65
+#: includes/settings/settings-footer.php:77
+#: includes/settings/settings-footer.php:89
+#: includes/settings/settings-header.php:54
+#: includes/settings/settings-header.php:65
+#: includes/settings/settings-header.php:76
+msgid "Hide"
+msgstr "লুকুৱাওক"
+
+#: includes/settings/settings-footer.php:52
+#: includes/settings/settings-footer.php:64
+#: includes/settings/settings-footer.php:76
+#: includes/settings/settings-footer.php:88
+#: includes/settings/settings-header.php:53
+#: includes/settings/settings-header.php:64
+#: includes/settings/settings-header.php:75
+msgid "Show"
+msgstr "দেখুওৱাক"
+
+#: includes/settings/settings-footer.php:50
+#: includes/settings/settings-footer.php:191
+#: includes/settings/settings-header.php:51
+#: includes/settings/settings-header.php:187
+msgid "Site Logo"
+msgstr "ছাইটৰ ল’গ’"
+
+#: includes/elementor-functions.php:208
+msgid "Use this experiment to design header and footer using Elementor Site Settings. <a href=\"%s\" target=\"_blank\">Learn More</a>"
+msgstr "Elementor-ৰ ছাইট ছেটিংছ ব্যৱহাৰ কৰি শিৰোশাৰী আৰু পাদশাৰী ডিজাইন কৰিবলৈ এই পৰীক্ষাটো ব্যৱহাৰ কৰক। <a href=\"%s\" target=\"_blank\">অধিক জানক</a>"
+
+#: includes/elementor-functions.php:207
+msgid "Hello Theme Header & Footer"
+msgstr "Hello থীমৰ শিৰোশাৰী আৰু পাদশাৰী"
+
+#: includes/admin-functions.php:133
+msgid "Get Elementor"
+msgstr "Elementor লাভ কৰক"
+
+#: functions.php:31 includes/settings/settings-footer.php:21
+#: includes/settings/settings-footer.php:42
+msgid "Footer"
+msgstr "পাদশাৰী"
+
+#: functions.php:30 includes/settings/settings-header.php:23
+#: includes/settings/settings-header.php:43
+msgid "Header"
+msgstr "শিৰোশাৰী"
+
+#: includes/admin-functions.php:137
+msgid "Thanks for installing the Hello Theme!"
+msgstr "Hello থীম ইনষ্টল কৰাৰ বাবে ধন্যবাদ!"
+
+#: includes/admin-functions.php:49
+msgid "Install Elementor"
+msgstr "Elementor ইনষ্টল কৰক"
+
+#: includes/admin-functions.php:40
+msgid "Activate Elementor"
+msgstr "Elementor সক্ৰিয় কৰক"
+
+#. translators: 1: number of comments
+#: comments.php:39
+msgctxt "comments title"
+msgid "%1$s Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "%1$sটা সঁহাৰি"
+msgstr[1] "%1$sটা সঁহাৰি"
+
+#: comments.php:35
+msgctxt "comments title"
+msgid "One Response"
+msgstr "এটা সঁহাৰি"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:51 template-parts/search.php:57
+msgid "newer %s"
+msgstr "আৰু নতুন %s"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:49 template-parts/search.php:55
+msgid "%s older"
+msgstr "%s আৰু পুৰণি"
+
+#: template-parts/search.php:43
+msgid "It seems we can't find what you're looking for."
+msgstr "এনে লাগিছে যেন আপুনি বিচৰা বস্তুটো আমি বিচাৰি পোৱা নাই।"
+
+#: template-parts/search.php:17
+msgid "Search results for: "
+msgstr "ইয়াৰ বাবে সন্ধানৰ ফলাফল: "
+
+#: template-parts/dynamic-footer.php:33 template-parts/dynamic-header.php:36
+#: template-parts/header.php:29
+msgid "Home"
+msgstr "মুখ্যপৃষ্ঠা"
+
+#: template-parts/single.php:27
+msgid "Tagged "
+msgstr "টেগ কৰা হৈছে "
+
+#: template-parts/404.php:21
+msgid "It looks like nothing was found at this location."
+msgstr "এনে লাগিছে যেন এই অৱস্থানত একো পোৱা নগ’ল।"
+
+#: template-parts/404.php:16
+msgid "The page can&rsquo;t be found."
+msgstr "পৃষ্ঠাখন বিচাৰি পোৱা নাই।"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Elementor Team"
+msgstr "Elementor দল"

@@ -1,0 +1,16 @@
+[28-Nov-2023 15:21:10 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/nakiyjif/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[29-Nov-2023 04:18:03 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/nakiyjif/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[01-Dec-2023 16:26:15 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/nakiyjif/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[02-Dec-2023 16:38:19 America/New_York] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/nakiyjif/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nakiyjif/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
